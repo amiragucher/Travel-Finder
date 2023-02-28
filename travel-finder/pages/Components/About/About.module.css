@@ -1,7 +1,14 @@
+.AboutContiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .Circle {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30em;
     width: 500px;
     height: 500px;
     line-height: 500px;
