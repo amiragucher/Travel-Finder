@@ -3,7 +3,7 @@
     align-items: center;
     min-width: 100rem;
     min-height: 10%;
-    background-color: #DE9E22;
+    background-color: #3D5F77;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -15,5 +15,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    font-size: medium;
+    padding: 2px;
 }
 
