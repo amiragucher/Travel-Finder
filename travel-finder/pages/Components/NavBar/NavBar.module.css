@@ -20,8 +20,10 @@
 
 .Links{
     display: flex;
+    justify-content: left;
     flex-direction: row;
-    align-self: end;
+    text-align: right;
     color: white;
     padding-left: 2em;
+    font-size: medium;
 }
