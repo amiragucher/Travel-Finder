@@ -1,0 +1,19 @@
+.FooterContainer {
+    display: flex;
+    align-items: center;
+    min-width: 100rem;
+    min-height: 10%;
+    background-color: #DE9E22;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0em;
+}
+
+
+.FooterInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
