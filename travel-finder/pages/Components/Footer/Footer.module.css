@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     min-width: 100rem;
-    min-height: 10%;
+    min-height: 8%;
     background-color: #3D5F77;
     position: fixed;
     bottom: 0;
@@ -10,13 +10,25 @@
     margin-left: 0em;
 }
 
+.FooterTitle{
+    align-self: flex-start;
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 2em;
+    width: 4em;
+}
+
 
 .FooterInfo{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     color: white;
-    font-size: medium;
+    font-size: xx-small;
     padding: 2px;
+    width: 80%;
+
 }
 
