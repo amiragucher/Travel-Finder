@@ -4,11 +4,13 @@
     font-family: monospace;
     font-size: xx-large;
     color: rgb(255, 255, 255);
+    margin-left: 2em;
     
 }
 
 .NavBar {
     display: flex;
+    align-items: center;
     min-width: 100rem;
     min-height: 10%;
     background-color: #DE9E22;
@@ -18,12 +20,20 @@
     margin-left: 0em;
 }
 
-.Links{
+.LinksContainer{
     display: flex;
-    justify-content: left;
+    justify-content: right;
+    align-items: end;
     flex-direction: row;
+    max-width: 20%;
+    margin-right: 0em;
+    margin-left: 60%
+}
+
+.Links{
     text-align: right;
     color: white;
     padding-left: 2em;
     font-size: medium;
+    margin-right: 0%;
 }
