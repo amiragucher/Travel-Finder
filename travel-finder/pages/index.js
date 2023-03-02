@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={Style.container}>
       <NavBar />
-      <About/>
+      {/* <About/> */}
       <Footer/>
     </div>
   )

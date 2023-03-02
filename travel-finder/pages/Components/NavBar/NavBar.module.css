@@ -2,9 +2,10 @@
     display: flex;
     align-self: flex-start;
     font-family: monospace;
-    font-size: xx-large;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     margin-left: 2em;
+    width: 4em;
     
 }
 
@@ -20,6 +21,7 @@
     margin-left: 0em;
 }
 
+
 .LinksContainer{
     display: flex;
     justify-content: right;
@@ -27,13 +29,13 @@
     flex-direction: row;
     max-width: 20%;
     margin-right: 0em;
-    margin-left: 60%
+    margin-left: 65%
 }
 
 .Links{
     text-align: right;
-    color: white;
+    color: #365A73;
     padding-left: 2em;
-    font-size: medium;
+    font-size: large;
     margin-right: 0%;
 }
